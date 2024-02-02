@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Manrope Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c083348d16.js" crossorigin="anonymous"></script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header>
+        <div class="w-full">
+            <nav
+                class="container relative flex flex-wrap items-center justify-between py-8 px-5 mx-auto lg:justify-between">
+                <div class="flex flex-wrap items-center lg:w-auto">
+                    <button
+                        class="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-[#FF4240] focus:text-[#FF4240] focus:bg-red-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700 mr-2.5">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="logo text-2xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</div>
+                </div>
+                <div class="hidden text-center lg:flex lg:items-center text-lg font-semibold">
+                    <ul class="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex space-x-10">
+                        <li>
+                            <a href="" class="text-[#FF4240] hover:text-[#FF4240] duration-300">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="hover:text-[#FF4240] duration-300">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="hover:text-[#FF4240] duration-300">Pages</a>
+                        </li>
+                        <li>
+                            <a href="" class="hover:text-[#FF4240] duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="" class="hover:text-[#FF4240] duration-300">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items-center space-x-4 lg:flex">
+                    <div class="hidden lg:flex">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <button class="px-6 py-2 bg-[#FF4240] text-white font-semibold rounded-md md:ml-5">
+                        Get Ticket
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Slider -->
+        <section>
+            <div class="container mx-auto px-5">
+                <div class="relative w-full">
+                    <img src="images/1.png" alt="Banner" class="h-auto w-full rounded-lg">
+                    <div class="lg:flex lg:absolute lg:bottom-8 lg:justify-between w-full lg:px-8">
+                        <div class="flex lg:relative space-x-5 items-center justify-center lg:items-end lg:justify-start w-full lg:w-1/2 -mt-8">
+                            <a href="#slide3" class="text-white bg-black px-2 rounded-full">❮</a>
+                            <a href="#slide2" class="text-white bg-black px-2 rounded-full">❯</a>
+                        </div>
+                        <div class="bg-black rounded-md text-white lg:w-1/2 mt-8">
+                            <div class="p-8">
+                                <h2 class="font-bold lg:text-2xl text-lg mb-4">Meet all the heroes from the field</h2>
+                                <p class="lg:text-base text-sm font-normal">"A hero is an ordinary individual who finds
+                                    the strength to persevere and endure in spite of overwhelming obstacles". -
+                                    Christopher Reeve.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Hockeys Club -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <hr class="border-dashed mb-10">
+                <div class="text-center">
+                    <div class="lg:w-1/2 mx-auto">
+                        <h2 class="lg:text-4xl text-[22px] font-extrabold mb-5">Professional Hockeys Club</h2>
+                        <p class="lg:text-base text-sm font-normal">The Allen Americans Professional Hockey Club is a
+                            member of the ECHL, the world’s top Double-A hockey league.</p>
+                    </div>
+                </div>
+                <hr class="border-dashed my-10">
+                <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10">
+                    <div class="card text-center items-center">
+                        <div class="radial-progress text-[#FF4240] transform rotate-90" style="--value:87;"
+                            role="progressbar">
+                            <span class="text-black text-2xl font-bold transform -rotate-90">87%</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-xl font-semibold mb-3">Prayer Facility</h2>
+                            <p class="text-base font-normal">The Allen Americans Professional Hockey Club.</p>
+                        </div>
+                    </div>
+                    <div class="card text-center items-center">
+                        <div class="radial-progress text-[#49D293] transform rotate-90" style="--value:95;"
+                            role="progressbar">
+                            <span class="text-black text-2xl font-bold transform -rotate-90">95%</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-xl font-semibold mb-3">Experienced Coach</h2>
+                            <p class="text-base font-normal">The Allen Americans Professional Hockey Club.</p>
+                        </div>
+                    </div>
+                    <div class="card text-center items-center">
+                        <div class="radial-progress text-[#FFB546] transform rotate-90" style="--value:90;"
+                            role="progressbar">
+                            <span class="text-black text-2xl font-bold transform -rotate-90">90%</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-xl font-semibold mb-3">Senior Player</h2>
+                            <p class="text-base font-normal">The Allen Americans Professional Hockey Club.</p>
+                        </div>
+                    </div>
+                    <div class="card text-center items-center">
+                        <div class="radial-progress text-[#4C8DF1] transform rotate-90" style="--value:80;"
+                            role="progressbar">
+                            <span class="text-black text-2xl font-bold transform -rotate-90">80%</span>
+                        </div>
+                        <div class="card-body ">
+                            <h2 class="text-xl font-semibold mb-3">Training Ground</h2>
+                            <p class="text-base font-normal">The Allen Americans Professional Hockey Club.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Sections -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <hr class="border-dashed mb-10">
+                <div class="text-center">
+                    <div class="lg:w-1/2 mx-auto">
+                        <h2 class="lg:text-4xl text-[22px] font-extrabold mb-5">Program Sections</h2>
+                        <p class="lg:text-base text-sm font-normal">The players are divided up by skill level and
+                            rotated through each station learning different skills as they move from station to station.
+                        </p>
+                    </div>
+                </div>
+                <hr class="border-dashed my-10">
+                <div class="md:flex md:-mx-4">
+                    <div class="w-full lg:h-[338px] md:mx-4 rounded-2xl overflow-hidden bg-cover bg-center md:w-1/2 my-8"
+                        style="background-image: url('images/2.png')">
+                        <div class="bg-[#131318] bg-opacity-50 flex items-end h-full">
+                            <div class="px-10 max-w-xl text-white">
+                                <h2 class="text-2xl font-bold my-3">Junior Program</h2>
+                                <p class="text-base font-normal mb-5">Our junior hockey program teaches children how to
+                                    skate and how to play hockey. It is for ages 7 to 10. The junior program is run on
+                                    Saturday and Sunday mornings at the North Rec.</p>
+                                <button class="px-6 py-2.5 bg-[#FF4240] text-white font-semibold rounded-md mb-8">
+                                    Register Now!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:h-[338px] md:mx-4 rounded-2xl overflow-hidden bg-cover bg-center md:w-1/2 my-8"
+                        style="background-image: url('images/3.png')">
+                        <div class="bg-[#131318] bg-opacity-50 flex items-end h-full">
+                            <div class="px-10 max-w-xl text-white">
+                                <h2 class="text-2xl font-bold my-3">Teenager Program</h2>
+                                <p class="text-base font-normal mb-5">Our teenager hockey program teaches children how
+                                    to skate and how to play hockey. It is for ages 11 to 19. The teenager program is
+                                    run on Monday and Tuesday mornings at the North Rec.</p>
+                                <button class="px-6 py-2.5 bg-[#FF4240] text-white font-semibold rounded-md mb-8">
+                                    Register Now!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:h-[450px] rounded-2xl overflow-hidden bg-cover bg-center"
+                    style="background-image: url('images/4.png')">
+                    <div class="bg-[#131318] bg-opacity-50 flex items-end h-full">
+                        <div class="px-10 max-w-xl text-white">
+                            <h2 class="text-2xl font-bold my-3">Professional Program</h2>
+                            <p class="text-base font-normal mb-5">Our professional hockey program teaches children how
+                                to skate and how to play hockey. It is for ages 20 to 25. The professional program is
+                                run on Wednesday and Thursday mornings at the North Rec.</p>
+                            <button class="px-6 py-2.5 bg-[#FF4240] text-white font-semibold rounded-md mb-8">
+                                Register Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our New Products -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <hr class="border-dashed mb-10">
+                <div class="text-center">
+                    <div class="lg:w-1/2 mx-auto">
+                        <h2 class="lg:text-4xl text-[22px] font-extrabold mb-5">Our New Products</h2>
+                        <p class="lg:text-base text-sm font-normal">New hockey gear for 2024 that is worth your
+                            attention, and your hard-earned money. We'll look at the best new hockey sticks, helmets,
+                            and skates available.</p>
+                    </div>
+                </div>
+                <hr class="border-dashed my-10">
+                <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/5.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/6.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/7.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/8.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/9.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                        <div class="w-full lg:w-1/3 p-5">
+                            <figure><img src="./images/10.png" alt="Product" class="w-full"></figure>
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="flex gap-6">
+                                <div class="text-base font-medium">
+                                    <i class="fa-solid fa-star text-[#F99808]"></i>
+                                    <span class="text-[#131318] text-opacity-50">5.0</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span class="">520</span>
+                                </div>
+                                <div class="text-base font-medium text-[#131318] text-opacity-50">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="">200</span>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">World Cup Flags Football</h3>
+                            <p class="text-base font-normal text-[#131318] text-opacity-60 mb-3 lg:mb-0">We sell
+                                sublimated Reversible hockey jerseys in all colors and designs.</p>
+                            <div class="lg:flex">
+                                <div class="text-lg font-bold text-[#FF4240] lg:mr-5 mb-3 lg:mb-0">
+                                    Price - $22.00
+                                </div>
+                                <div class="text-[#131318] text-opacity-50 mb-3 lg:mb-0">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Delivery Fee : Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Question -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <hr class="border-dashed mb-10">
+                <div class="text-center">
+                    <div class="lg:w-1/2 mx-auto">
+                        <h2 class="lg:text-4xl text-[22px] font-extrabold mb-5">Clients Question</h2>
+                        <p class="lg:text-base text-sm font-normal">Here are the top 5 questions you'd ask your
+                            customers · What can my company do to better serve your needs?· How satisfied are you with
+                            our products?</p>
+                    </div>
+                </div>
+                <hr class="border-dashed my-10">
+                <div
+                    class="card lg:card-side border-solid border-[1px] border-[#131318] border-opacity-10 shadow-md mb-6">
+                    <div class="w-full lg:w-1/2 p-5">
+                        <figure><img src="./images/11.png" alt="Product" class="w-full"></figure>
+                    </div>
+                    <div class="card-body py-5">
+                        <div class="collapse collapse-plus border-b rounded-none">
+                            <input type="radio" name="my-accordion-1" checked="checked">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Our Equipment
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">You can’t
+                                    play hockey at a high level without the right equipment. Whether you’re a complete
+                                    beginner or a seasoned pro, you need the necessary kit – this is true for any sport,
+                                    especially one that involves physical contact, like hockey.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus border-b rounded-none">
+                            <input type="radio" name="my-accordion-1">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Hockey Training
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">Every year,
+                                    many new hockey sticks from the leading brands come out. This year is no different,
+                                    with companies such as Bauer, CCM and Sherwood all releasing models.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus border-b rounded-none">
+                            <input type="radio" name="my-accordion-1">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Private Lessons
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">You can’t
+                                    play hockey at a high level without the right equipment. Whether you’re a complete
+                                    beginner or a seasoned pro, you need the necessary kit – this is true for any sport,
+                                    especially one that involves physical contact, like hockey.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus border-b rounded-none">
+                            <input type="radio" name="my-accordion-1">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Ski Touring
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">You can’t
+                                    play hockey at a high level without the right equipment. Whether you’re a complete
+                                    beginner or a seasoned pro, you need the necessary kit – this is true for any sport,
+                                    especially one that involves physical contact, like hockey.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus border-b rounded-none">
+                            <input type="radio" name="my-accordion-1">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Booking
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">You can’t
+                                    play hockey at a high level without the right equipment. Whether you’re a complete
+                                    beginner or a seasoned pro, you need the necessary kit – this is true for any sport,
+                                    especially one that involves physical contact, like hockey.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus rounded-none">
+                            <input type="radio" name="my-accordion-1">
+                            <div class="collapse-title text-xl font-semibold py-0">
+                                Pricings
+                            </div>
+                            <div class="collapse-content">
+                                <p class="lg:text-base text-sm font-normal text-[#131318] text-opacity-60">You can’t
+                                    play hockey at a high level without the right equipment. Whether you’re a complete
+                                    beginner or a seasoned pro, you need the necessary kit – this is true for any sport,
+                                    especially one that involves physical contact, like hockey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get In Touch -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <hr class="border-dashed mb-10">
+                <div class="text-center">
+                    <div class="lg:w-1/2 mx-auto">
+                        <h2 class="lg:text-4xl text-[22px] font-extrabold mb-5">Get In Touch</h2>
+                        <p class="lg:text-base text-sm font-normal">For League-related inquiries, please contact with us
+                            and a member of the support staff will respond as soon as possible. </p>
+                    </div>
+                </div>
+                <hr class="border-dashed my-10">
+                <div class="lg:flex">
+                    <div class="card border w-full lg:w-1/3 mb-8 lg:mb-0">
+                        <div class="p-6">
+                            <div class="card bg-[#BCED6D] bg-opacity-10 mb-5">
+                                <div class="card-body items-start">
+                                    <figure class="mb-5"><img src="./images/icon-phone.png" alt="Phone" class="">
+                                    </figure>
+                                    <p class="text-base font-normal text-[#131318] text-opacity-60">Phone Number :</p>
+                                    <p class="text-lg font-bold text-[#131318]">(+62) 123-321-543</p>
+                                </div>
+                            </div>
+                            <div class="card bg-[#FDDD5F] bg-opacity-10 mb-5">
+                                <div class="card-body items-start">
+                                    <figure class="mb-5"><img src="./images/icon-email.png" alt="Email" class="">
+                                    </figure>
+                                    <p class="text-base font-normal text-[#131318] text-opacity-60">Email :</p>
+                                    <p class="text-lg font-bold text-[#131318]">hockeys@support.com</p>
+                                </div>
+                            </div>
+                            <div class="card bg-[#629CF3] bg-opacity-10">
+                                <div class="card-body items-start">
+                                    <figure class="mb-5"><img src="./images/icon-map-pin.png" alt="Location" class="">
+                                    </figure>
+                                    <p class="text-base font-normal text-[#131318] text-opacity-60">Location :</p>
+                                    <p class="text-lg font-bold text-[#131318]">152/1 Mohakhali Wireless Gate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-2/3 lg:ml-5 mb-8 lg:mb-0">
+                        <form action="#" method="POST" class="w-full">
+                            <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                                <div>
+                                    <label class="block text-lg font-semibold text-[#131318]">Your Name</label>
+                                    <div class="mt-4">
+                                        <input type="text" name="name"
+                                            class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-indigo-400 sm:text-sm sm:leading-6"
+                                            placeholder="Enter your full name">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-lg font-semibold text-[#131318]">Your Email</label>
+                                    <div class="mt-4">
+                                        <input type="email" name="email"
+                                            class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-indigo-400 sm:text-sm sm:leading-6"
+                                            placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-lg font-semibold text-[#131318]">Subject</label>
+                                    <div class="mt-4">
+                                        <input type="text" name="subject"
+                                            class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-indigo-400 sm:text-sm sm:leading-6"
+                                            placeholder="Enter your subject">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-lg font-semibold text-[#131318]">Phone Number</label>
+                                    <div class="mt-4">
+                                        <input type="text" name="email"
+                                            class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-indigo-400 sm:text-sm sm:leading-6"
+                                            placeholder="Enter your phone number">
+                                    </div>
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <label class="block text-lg font-semibold text-[#131318]">Message</label>
+                                    <div class="mt-4">
+                                        <textarea name="message" id="message" rows="13"
+                                            class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            placeholder="Write your message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-12">
+                                <button type="submit"
+                                    class="block w-full rounded-md bg-[#FF4240] py-3 text-center font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section class="my-20">
+            <div class="container mx-auto px-5">
+                <div class="bg-[#131318] bg-opacity-5 py-14 text-center rounded-lg">
+                    <p class="text-[#131318] text-2xl font-bold">Social Media</p>
+                    <div class="social-icon mt-5">
+                        <a href="https://twitter.com/" target="_blank" title="Twitter"><i
+                                class="fa-brands fa-twitter text-2xl mr-5"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
+                                class="fa-brands fa-facebook-f text-2xl mr-5"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i
+                                class="fa-brands fa-instagram text-2xl mr-5"></i></a>
+
+                        <a href="https://github.com/" target="_blank" title="Github"><i
+                                class="fa-brands fa-github text-2xl mr-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer p-16 bg-[#131318]">
+        <div class="container mx-auto px-5">
+            <div class="lg:flex w-full">
+                <div class="lg:w-1/3 mb-8">
+                    <h5 class="text-2xl font-bold text-white mb-4">Get In Touch</h5>
+                    <p class="lg:text-base text-sm font-normal text-white text-opacity-60 lg:max-w-96 mb-4">For
+                        League-related inquiries, please contact with us and a member of
+                        the support staff will respond as soon as possible.</p>
+                    <div class="text-white text-opacity-60 mb-3">
+                        <i class="fa-regular fa-envelope text-[#FF4240] mr-2.5"></i>
+                        <span>hockeys@support.com</span>
+                    </div>
+                    <div class="text-white text-opacity-60 mb-3">
+                        <i class="fa-solid fa-phone text-[#FF4240] mr-2.5"></i>
+                        <span>(+62) 123-321-543</span>
+                    </div>
+                </div>
+                <div class="lg:flex justify-between w-full lg:w-2/3">
+                    <div class="flex justify-between w-full">
+                        <div class="w-full lg:w-1/2 mb-8">
+                            <h6 class="text-lg font-semibold text-white mb-4">Company</h6>
+                            <ul class="text-base font-normal text-white text-opacity-60">
+                                <li class="mb-2"><a href="" class="hover:text-white">About us</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Leadership</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Careers</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">News & Article</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Legal Notice</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-8">
+                            <h6 class="text-lg font-semibold text-white mb-4">Support</h6>
+                            <ul class="text-base font-normal text-white text-opacity-60">
+                                <li class="mb-2"><a href="" class="hover:text-white">Help Center</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">FAQ</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Ticket</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Support</a></li>
+                                <li class="mb-2"><a href="" class="hover:text-white">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/3 mb-8">
+                        <h6 class="text-lg font-semibold text-white mb-4">Services</h6>
+                        <ul class="text-base font-normal text-white text-opacity-60">
+                            <li class="mb-2"><a href="" class="hover:text-white">Academy</a></li>
+                            <li class="mb-2"><a href="" class="hover:text-white">Group Lesson</a></li>
+                            <li class="mb-2"><a href="" class="hover:text-white">Private Lesson</a></li>
+                            <li class="mb-2"><a href="" class="hover:text-white">Hockeys for kids</a></li>
+                            <li class="mb-2"><a href="" class="hover:text-white">Hockeys for Adult</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
